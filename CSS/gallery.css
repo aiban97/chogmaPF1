@@ -25,13 +25,8 @@
   justify-content: flex-start;
 }
 
-.image{
-  width: 350px;
+.gallery-img-con img{
   height: 200px;
-}
-
-.gallery-img-con img {
-  border-radius: 6px;
 }
 
 .image-title{

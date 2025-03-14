@@ -356,10 +356,8 @@ body{
 }
 
 .gallery-img-con img{
-  width: 100%;
-  height: 196px;
-  
-  
+  width: 350px;
+  height: 195px; 
   border-radius: 6px;
 }
 
