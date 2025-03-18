@@ -1,4 +1,6 @@
-
+.menu-item img {
+  width: 420px;
+}
 
 .intro-container {
   display: flex;
@@ -41,7 +43,7 @@
   font-size: 15px;
 }
 
-.msg-heading{
+.msg-heading {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -52,29 +54,32 @@
   font-weight: 500;
 }
 
-@media(max-width: 560px){
-  .menu-item img{
-    width: 320px;;
+@media(max-width: 560px) {
+  .menu-item img {
+    width: 320px;
+    ;
   }
-  .pfp-con img{
+
+  .pfp-con img {
     width: 180px;
   }
 
-  .name{
+  .name {
     font-size: 16px;
   }
 
-  .dept, .designation{
+  .dept,
+  .designation {
     font-size: 12px;
   }
 
-  .msg-heading{
+  .msg-heading {
     font-size: 28px;
     font-style: bold;
     font-weight: 900;
   }
 
-  .msg-content{
+  .msg-content {
     font-size: 16px;
   }
 }
@@ -95,23 +100,23 @@
 }
 
 
-.ba-content-con{
+.ba-content-con {
   margin-bottom: 20px;
   padding-left: 30px;
   padding-right: 20px;
 }
 
-.ba-dept-lists li{
+.ba-dept-lists li {
   font-family: Roboto, Tahoma;
   margin-bottom: 15px;
   font-size: 25px;
   font-weight: 600;
   color: #880a08;
   list-style-type: none;
-  
+
 }
 
-.ba-dept-lists li a{
+.ba-dept-lists li a {
   color: #880a08;
 }
 
@@ -120,7 +125,7 @@
     font-size: 15px;
   }
 
-    .ba-dept-lists li{
-      font-size: 16px;
-    }
+  .ba-dept-lists li {
+    font-size: 16px;
+  }
 }

@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>COG (M&A)</title>
-    <link rel="stylesheet" href="CSS/loader.css" />
-    <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="stylesheet" href="CSS/sidebar.css" />
-    <link rel="stylesheet" href="CSS/gallery.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!--Header-->
-    <div class="header-container">
+
+document.querySelector('.header-container').innerHTML = `
       <div class="sidebar">
         <div class="sidebar-x" onclick="hideSidebar()">
           <a href="#"><i class="bx bx-x x-button"></i></a>
@@ -39,14 +13,14 @@
           </li>
           <li>
             <div class="iocn-link">
-              <a class="menu-a" href="#">
+              <a class="menu-a" href="">
                 <i class="bx bxs-info-square"></i>
                 <span class="link-name"> ABOUT</span>
               </a>
               <i class="bx bxs-chevron-down arrow"></i>
             </div>
             <ul class="sub-menu">
-              <li class="sub-li"><a href="#">About Us</a></li>
+              <li class="sub-li"><a href="about.html">About Us</a></li>
               <li class="sub-li"><a href="pastors.html">Our Pastors</a></li>
               <li class="sub-li"><a href="#">Our Evangelists</a></li>
               <li class="sub-li"><a href="#">Statistics</a></li>
@@ -74,7 +48,11 @@
                 <a href="#">Child Sponsorship Programme</a>
               </li>
               <li class="sub-li"><a href="#">Jingaiei Centre</a></li>
-              <li class="sub-li"><a href="#">Nichols-Roy Bible College</a></li>
+              <li class="sub-li">
+                <a href="https://nicholsroybiblecollege.org/" target="_blank"
+                  >Nichols-Roy Bible College</a
+                >
+              </li>
             </ul>
           </li>
           <li>
@@ -102,7 +80,7 @@
             <a href="#">ABOUT</a>
           </div>
           <div class="dropdown-content1">
-            <a href="#">About Us</a>
+            <a href="about.html">About Us</a>
             <a href="pastors.html">Pastor</a>
             <a href="#">Evangelists</a>
             <a href="#">Statistics</a>
@@ -123,7 +101,9 @@
             <a href="#">Sunday School & Children Department</a>
             <a href="#">Child Sponsorship Programme</a>
             <a href="#">Jingaiei Centre</a>
-            <a href="#">Nichols-Roy Bible College</a>
+            <a href="https://nicholsroybiblecollege.org/" target="_blank"
+              >Nichols-Roy Bible College</a
+            >
           </div>
         </div>
 
@@ -136,89 +116,4 @@
         <div class="menu-item button1" onclick="showSidebar()">
           <a href="#"><i class="bx bx-menu menu-button"></i></a>
         </div>
-      </div>
-    </div>
-
-    <div class="heading-bar">PHOTOS</div>
-    <div class="gallery-container"></div>
-
-    <!--Contact-->
-    <div class="contact-con">
-      <div class="info-con">
-        <div class="info1">Contact Us:</div>
-        <div class="address">
-          <div class="icon">
-            <i class="bi bi-geo-alt-fill"></i>
-          </div>
-          <div class="add">
-            JJM Memorial Building, Mountain View, Chapel Road Qualapatty, Church
-            Of God (M & A) Compound, Shillong &#8212; 793002
-          </div>
-        </div>
-        <div class="phone">
-          <div class="icon">
-            <i class="bi bi-telephone-fill"></i>
-          </div>
-          <div class="number">+91 7654289987</div>
-        </div>
-        <div class="gmail">
-          <div class="icon">
-            <i class="bx bxl-gmail"></i>
-          </div>
-          <div class="gmail-id">pfcogma@gmail.com</div>
-        </div>
-      </div>
-
-      <div class="links-container">
-        <div class="heading-link">Youtube Links:</div>
-        <div class="links-con">
-          <a
-            href="https://youtube.com/@thelightofthegospelmediami775?si=_r0rliTyVbbOiAf1"
-            target="_blank"
-          >
-            <div class="link1">
-              <div class="link-icon"><i class="bi bi-youtube"></i></div>
-              <div class="link-add">TLTG</div>
-            </div>
-          </a>
-          <a
-            href="https://youtube.com/@jingiasengsamlabalangublei9805?si=Am-dQEetBl9anRYd"
-            target="_blank"
-          >
-            <div class="link2">
-              <div class="link-icon"><i class="bi bi-youtube"></i></div>
-              <div class="link-add">JS YA</div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <!--Footer-->
-    <div class="footer-container">
-      <div class="copyright">
-        &copy; <a class="border-bottom" href="#">pastorsfellowship</a> (PF)
-        2025, All Right Reserved.
-      </div>
-      <div class="developer">
-        Designed By
-        <a
-          class="border-bottom"
-          href="https://www.facebook.com/aky.jyrwa?mibextid=ZbWKwL"
-          target="_blank"
-          >Aibanroi Jyrwa</a
-        >, IT Engg.
-      </div>
-    </div>
-    <div class="loader"></div>
-  </body>
-  <script src="JS/header.js"></script>
-  <script src="JS/loader.js"></script>
-  <script src="data/gallery_data.js"></script>
-  <script src="JS/gallery.js"></script>
-  <script src="JS/side_script.js"></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
-</html>
+      </div>`;

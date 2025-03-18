@@ -36,7 +36,7 @@ const depts = [
     image: 'img/JC.jpg'
   },
   {
-    link: '',
+    link: 'https://nicholsroybiblecollege.org/',
     image: 'img/NBC.jpg'
   }
 ];
