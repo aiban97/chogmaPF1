@@ -53,9 +53,6 @@
 }
 
 @media(max-width: 560px){
-  .menu-item img{
-    width: 320px;;
-  }
   .pfp-con img{
     width: 180px;
   }
