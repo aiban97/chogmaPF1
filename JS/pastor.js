@@ -9,6 +9,7 @@ pastors.forEach((pastor) => {
           <p class="desc">${pastor.desc1}</p>
           <p class="desc">${pastor.desc2}</p>
           <p class="desc">${pastor.desc3}</p>
+          <p class="desc">${pastor.desc4}</p>
         </div>
       </div>`;
 });
