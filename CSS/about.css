@@ -13,6 +13,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   align-items: center;
+  align-items: start;
 }
 
 .pfp-con {
@@ -26,7 +27,7 @@
   color: white;
   border-radius: 5px;
   row-gap: 5px;
-  height: 380px;
+  height: 340px;
 }
 
 .descriptions {
@@ -36,12 +37,12 @@
 }
 
 .pfp-con img {
-  width: 300px;
+  width: 250px;
   border-radius: 5px;
 }
 
 .name {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
 }
