@@ -95,12 +95,16 @@
   margin-bottom: 10px;
 }
 
-.para {
+.para, .pioneer-para {
   display: block;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
   text-align: justify;
+}
+
+.pioneer-para {
+  margin-right: 20px;
 }
 
 @media(max-width: 560px) {
@@ -138,7 +142,7 @@
   .pioneer_bg{
     font-size: 20px;
   }
-  .para {
+  .para, .pioneer-para {
     font-size: 16px;
   }
 
