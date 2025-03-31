@@ -2,6 +2,19 @@
   width: 250px;
 }
 
+.logo{
+  width: 300px;
+}
+
+.logo_bar{
+  margin: auto;
+  border-radius: 5px;
+  width: 340px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
 .intro-container {
   font-family: Roboto;
   color: #880a08;
@@ -10,7 +23,16 @@
   margin-bottom: 20px;
 }
 
+.pioneer_con{
+  font-family: Roboto;
+  color: #880a08;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
 .pfp-con {
+  float: left;
+  font-family: Roboto;
   display: flex;
   flex-direction: column;
   background-color: #880a08;
@@ -22,7 +44,6 @@
   border-radius: 5px;
   row-gap: 5px;
   margin-right: 20px;
-  float: left;
 }
 
 .descriptions {
@@ -32,12 +53,19 @@
 }
 
 .pfp-con img {
-  width: 250px;
+  width: 200px;
   border-radius: 5px;
 }
 
+.msg-con{
+  font-family: Roboto;
+  color: #880a08;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .name {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   margin-bottom: 5px;
 }
@@ -45,17 +73,24 @@
 .designation,
 .year {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 5px;
 }
 
 .year{
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .msg-heading {
   display: block;
   font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.pioneer_bg{
+  display: block;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -100,8 +135,19 @@
     font-weight: 900;
   }
 
+  .pioneer_bg{
+    font-size: 20px;
+  }
   .para {
     font-size: 16px;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  .logo_bar{
+    width: 250px;
   }
 }
 
@@ -125,3 +171,73 @@
     font-size: 15px;
   }
 }
+
+.image img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.image{
+  display: flex;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.info-by-con{
+  align-items: center;
+  color: white;
+  display: flex;
+  padding-top: 10px;
+  background-color: #880a08;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 55%;
+  box-shadow: 2px 2px 8px black;
+}
+
+.sks-info{
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.info-by-heading{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.sks-name{
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.des0, .des1, .des2{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+@media(max-width: 560px){
+  .image img{
+    width: 120px;
+  }
+
+  .info-by-con{
+    width: 90%;
+  }
+
+  .info-by-heading{
+    font-size: 20px;
+  }
+
+  .sks-name{
+    font-size: 16px;
+  }
+
+  .des0, .des1, .des2{
+    font-size: 12px;
+  }
+}
+
