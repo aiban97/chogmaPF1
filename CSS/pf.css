@@ -1,4 +1,18 @@
+.pf-logo-con{
+  display: flex;
+  margin: auto;
+  background-color: #880a08;
+  justify-content: center;
+  width: 510px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 2px 2px 8px black;
+}
 
+.pf-logo{
+  width: 500px;
+}
 
 .intro-container {
   display: flex;
@@ -53,6 +67,14 @@
 }
 
 @media(max-width: 560px) {
+  .pf-logo{
+    width: 350px;
+  }
+
+  .pf-logo-con{
+    width: 360px;
+  }
+
   .pfp-con img {
     width: 180px;
   }
