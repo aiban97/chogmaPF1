@@ -81,7 +81,7 @@ document.querySelector('.header-container').innerHTML = `
           </div>
           <div class="dropdown-content1">
             <a href="about.html">About Us</a>
-            <a href="pastors.html">Pastor</a>
+            <a href="pastors.html">Pastors</a>
             <a href="#">Evangelists</a>
             <a href="#">Statistics</a>
           </div>

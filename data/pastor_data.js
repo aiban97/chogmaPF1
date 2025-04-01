@@ -55,6 +55,30 @@ const pastors = [
     desc1: "General Secretary",
     desc2: "Pastors Fellowship, COG (M&A)",
     desc3: "Doctor of Ministry",
-    desc4: "Serampur"
+    desc4: "Serampur College (University)"
   },
+  {
+    image: "img/WDS.jpg",
+    name: "Rev. W. D Suting",
+    desc1: "Pastor-in-Charge",
+    desc2: "Sohmynting Circle, COG (M&A)",
+    desc3: "Master of Divinity",
+    desc4: "UBC"
+  },
+  {
+    image: "img/S_DKHAR.png",
+    name: "Rev. S. Dkhar",
+    desc1: "Pastor-in-Charge",
+    desc2: "_______ Circle, COG (M&A)",
+    desc3: "",
+    desc4: ""
+  },
+  {
+    image: "img/GA.jpg",
+    name: "Rev. G. A Kharshi-iing",
+    desc1: "Pastor-in-Charge",
+    desc2: "Mawryngkneng Circle, COG (M&A)",
+    desc3: "",
+    desc4: ""
+  }
 ];
