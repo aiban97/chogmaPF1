@@ -2,7 +2,7 @@ const photos = [
   {
     id: "photo1",
     image: 'img/photo1.jpg',
-    title: 'TITLE 1'
+    title: 'YOUTH ASSEMBLY 2025, MAWSYNRAM'
   },
   {
     id: "photo2",
@@ -12,7 +12,7 @@ const photos = [
   {
     id: "photo3",
     image: 'img/photo3.jpg',
-    title: 'TITLE 3'
+    title: 'GENERAL ASSEMBLY 2025, NONGTRAI'
   },
   {
     id: "photo4",
@@ -27,11 +27,11 @@ const photos = [
   {
     id: "photo6",
     image: 'img/photo6.jpg',
-    title: 'TITLE 6'
+    title: 'GENERAL ASSEMBLY 2019, PHANNIEWLAH'
   },
   {
     id: "photo7",
     image: 'img/photo7.jpg',
-    title: 'TITLE 7'
+    title: 'YOUTH ASSEMBLY 2025, MAWSYNRAM'
   }
 ];
