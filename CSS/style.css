@@ -641,8 +641,9 @@ html {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-size: 35px;
+  font-size: 30px;
   color: #880a0a;
+  z-index: 101;
 }
 
 
