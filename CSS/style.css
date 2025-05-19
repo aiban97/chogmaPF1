@@ -614,5 +614,36 @@ body{
   transform: translateX(0);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#progress {
+  background-color: #880a0a;
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 100;
+}
+
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #880a0a;
+}
+
 
 
