@@ -646,8 +646,6 @@ html {
   z-index: 101;
 }
 
-
-
 @media(max-width: 420px) {
   #progress {
     height: 50px;
