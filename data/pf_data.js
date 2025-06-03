@@ -1,6 +1,6 @@
 const depts = [
   {
-    link: '',
+    link: 'ba.html',
     image: 'img/MB.jpg'
   },
   {

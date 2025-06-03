@@ -21,13 +21,26 @@
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
 }
 
 .pioneer_con{
   font-family: Roboto;
   color: #880a08;
   margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 20px;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
 }
 
 .pfp-con {
@@ -62,6 +75,13 @@
   color: #880a08;
   margin-left: 20px;
   margin-right: 20px;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .name {
@@ -157,7 +177,7 @@
 
 .about-heading-bar {
   background-color: rgb(136, 10, 10);
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   padding: 10px;
   color: white;
   text-align: center;
@@ -169,6 +189,8 @@
   border-radius: 40px;
   box-shadow: 2px 2px 8px black;
 }
+
+
 
 @media(max-width: 600px) {
   .about-heading-bar {

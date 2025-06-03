@@ -67,6 +67,11 @@
 }
 
 @media(max-width: 560px) {
+  .descriptions {
+    padding-top: 3px;
+    padding-left: 5px;
+  }
+
   .pf-logo{
     width: 350px;
   }
@@ -80,12 +85,12 @@
   }
 
   .name {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .dept,
   .designation {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .msg-heading {
@@ -99,7 +104,7 @@
   }
 }
 
-.ba-heading-bar {
+.heading-bar {
   background-color: rgb(136, 10, 10);
   margin-bottom: 10px;
   padding: 10px;
@@ -136,7 +141,7 @@
 }
 
 @media(max-width: 600px) {
-  .ba-heading-bar {
+  .heading-bar {
     font-size: 15px;
   }
 
