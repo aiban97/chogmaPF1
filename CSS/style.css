@@ -654,7 +654,7 @@ html {
 
   #progress-value {
     font-size: 25px;
-    height: calc(100% - 11px);
-      width: calc(100% - 11px);
+    height: calc(100% - 12px);
+      width: calc(100% - 12px);
   }
 }
