@@ -267,7 +267,7 @@ body{
   padding-top: 4px;
   padding-right: 4px;
   border-radius: 12px;
-  transition: all 0.2s ease;
+  transition: all 0.25s ease;
   box-shadow: 4px 6px 6px black;
 }
 
@@ -275,28 +275,30 @@ body{
   transition-delay: 200ms;
 }
 .dept-img-con:nth-child(3){
-  transition-delay: 200ms;
+  transition-delay: 300ms;
 }
 .dept-img-con:nth-child(4){
-  transition-delay: 200ms;
+  transition-delay: 400ms;
 }
+
 .dept-img-con:nth-child(5){
   transition-delay: 200ms;
 }
 .dept-img-con:nth-child(6){
-  transition-delay: 200ms;
+  transition-delay: 300ms;
 }
 .dept-img-con:nth-child(7){
-  transition-delay: 200ms;
+  transition-delay: 400ms;
 }
 .dept-img-con:nth-child(8){
-  transition-delay: 200ms;
+  transition-delay: 500ms;
 }
+
 .dept-img-con:nth-child(9){
   transition-delay: 200ms;
 }
 .dept-img-con:nth-child(10){
-  transition-delay: 200ms;
+  transition-delay: 300ms;
 }
 
 .dept-img-con:hover{
@@ -322,7 +324,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
   .pastor-card{
@@ -339,6 +340,20 @@ body{
   border-radius: 8px;
   box-shadow: 1px 4px 8px black;
 }
+
+.pastor-card:nth-child(2){
+  transition-delay: 200ms;
+}
+.pastor-card:nth-child(3){
+  transition-delay: 300ms;
+}
+.pastor-card:nth-child(4){
+  transition-delay: 400ms;
+}
+.pastor-card:nth-child(5){
+  transition-delay: 500ms;
+}
+
 
 .pastors-container img{
   width: 200px;
@@ -387,10 +402,10 @@ body{
   transition-delay: 200ms;
 }
 .gallery-img-con:nth-child(3){
-  transition-delay: 200ms;
+  transition-delay: 300ms;
 }
 .gallery-img-con:nth-child(4){
-  transition-delay: 200ms;
+  transition-delay: 400ms;
 }
 
 
