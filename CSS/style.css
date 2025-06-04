@@ -153,8 +153,6 @@ body{
   font-family: Roboto, Tahoma;
   max-width: 500px;  
   color: rgb(136, 10, 10);
-  text-shadow: -3px -1px 8px black;
-  
 }
 
 .heading-text h1{
@@ -188,10 +186,11 @@ body{
 }
 
 .desc1{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
   line-height: 24px;
+  text-align: justify;
 }
 
 .btn1{
