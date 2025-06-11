@@ -1,7 +1,7 @@
-let photosHTML = '';
+let photosHTML = "";
 
 photos.forEach((photo) => {
-  photosHTML +=`
+  photosHTML += `
     <div class="gallery-img-con">
       <div>
         <img src="${photo.image}" alt="" />
@@ -10,4 +10,4 @@ photos.forEach((photo) => {
     </div>`;
 });
 
-document.querySelector('.gallery-container').innerHTML = photosHTML;
+document.querySelector(".gallery-container").innerHTML = photosHTML;
