@@ -74,11 +74,11 @@
   }
 
   .pf-logo{
-    width: 350px;
+    width: 300px;
   }
 
   .pf-logo-con{
-    width: 360px;
+    width: 300px;
   }
 
   .pfp-con img {
@@ -94,14 +94,12 @@
     font-size: 11px;
   }
 
-  .msg-heading {
-    font-size: 28px;
-    font-style: bold;
-    font-weight: 900;
+  .message-container h1 {
+    font-size: 20px;
   }
 
-  .msg-content {
-    font-size: 16px;
+  .message-content {
+    font-size: 14px;
   }
 }
 
@@ -121,13 +119,13 @@
 }
 
 
-.ba-content-con {
+.pf-content-con {
   margin-bottom: 20px;
   padding-left: 30px;
   padding-right: 20px;
 }
 
-.ba-dept-lists li {
+.pf-dept-lists li {
   font-family: Roboto, Tahoma;
   margin-bottom: 15px;
   font-size: 25px;
@@ -137,7 +135,7 @@
 
 }
 
-.ba-dept-lists li a {
+.pf-dept-lists li a {
   color: #880a08;
 }
 
@@ -146,7 +144,47 @@
     font-size: 15px;
   }
 
-  .ba-dept-lists li {
+  .pf-dept-lists li {
     font-size: 16px;
+  }
+}
+
+@media(max-width: 350px) {
+  .descriptions {
+    padding-top: 3px;
+    padding-left: 5px;
+  }
+
+  .pf-logo {
+    width: 250px;
+  }
+
+  .pf-logo-con {
+    width: 250px;
+  }
+
+  .pfp-con {
+    height: 135px;
+  }
+
+  .pfp-con img {
+    width: 140px;
+  }
+
+  .name {
+    font-size: 12px;
+  }
+
+  .dept,
+  .designation {
+    font-size: 9px;
+  }
+
+  .message-container h1{
+    font-size: 16px;
+  }
+
+  .message-content {
+    font-size: 14px;
   }
 }
