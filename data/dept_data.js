@@ -8,11 +8,11 @@ const depts = [
     image: "img/ba.jpg",
   },
   {
-    link: "",
+    link: "mb.html",
     image: "img/MB.jpg",
   },
   {
-    link: "",
+    link: "wd.html",
     image: "img/WD.jpg",
   },
   {
@@ -20,19 +20,19 @@ const depts = [
     image: "img/YD.jpg",
   },
   {
-    link: "",
+    link: "ed.html",
     image: "img/ED.jpg",
   },
   {
-    link: "",
+    link: "sscd.html",
     image: "img/SSCD.jpg",
   },
   {
-    link: "",
+    link: "csp.html",
     image: "img/CSP.jpg",
   },
   {
-    link: "",
+    link: "jc.html",
     image: "img/JC.jpg",
   },
   {
