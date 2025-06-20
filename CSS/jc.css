@@ -1,0 +1,25 @@
+.vision-con{
+  background-color: #880a0a;
+  color: white;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 0.02px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.5);
+  font-weight: 900;
+}
+
+.vision .colon {
+  margin-left: 60px;
+}
+
+.punchline .colon{
+  margin-left: 15px;
+}
+
+.italicized {
+  font-style: italic;
+}
