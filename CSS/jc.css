@@ -1,25 +1,163 @@
+.heading-text{
+  margin-right: 0px;
+}
+
 .vision-con{
+  text-align: center;
   background-color: #880a0a;
   color: white;
-  width: fit-content;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 0.02px;
+  width: 500px;
+  padding: 10px 20px 10px 20px;
   margin: auto;
+  margin-bottom: 10px;
   border-radius: 10px;
   box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.5);
   font-weight: 900;
 }
 
-.vision .colon {
-  margin-left: 60px;
-}
-
-.punchline .colon{
-  margin-left: 15px;
+.vision, .punchline{
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .italicized {
+  text-align: center;
   font-style: italic;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 350px) {
+
+  .heading-text h1{
+    font-size: 20px;
+  }
+
+  .desc1 {
+    font-size: 14px;
+  }
+
+  .vision-con {
+    width: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .vision, .punchline {
+    font-size: 12px;
+  }
+
+  .italicized {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 400px) {
+  .content-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+  .heading-text{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+
+  .heading-text h1 {
+    font-size: 20px;
+  }
+
+  .desc1 {
+    font-size: 14px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+
+  .vision-con {
+    width: 100%;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 6px;
+    padding-bottom: 0.01px;
+  }
+  .vision,
+  .punchline {
+    font-size: 12px;
+  }
+  .italicized {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+  .heading-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+
+  .heading-text h1 {
+    font-size: 20px;
+  }
+
+  .desc1 {
+    font-size: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+
+  .vision-con {
+    width: 100%;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 6px;
+    padding-bottom: 0.01px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+  .heading-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+
+  .heading-text h1 {
+    font-size: 22px;
+  }
+
+  .desc1 {
+    font-size: 18px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+
+  .vision-con {
+    width: 100%;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 6px;
+    padding-bottom: 0.01px;
+    font-size: 16px;
+  }
 }
