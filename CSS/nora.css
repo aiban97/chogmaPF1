@@ -15,7 +15,10 @@
   font-weight: 600;
   color: #880a08;
   list-style-type: none;
+}
 
+.nora-dept-lists li a {
+  color: #880a08;
 }
 
 @media(max-width: 600px) {

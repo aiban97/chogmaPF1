@@ -1,0 +1,33 @@
+.history {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+@media (max-width: 600px) {
+  .history {
+    font-size: 20px;
+  }
+
+  .desc1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 450px) {
+  .history {
+    font-size: 18px;
+  }
+  .desc1 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  .history {
+    font-size: 16px;
+  }
+
+  .desc1 {
+    font-size: 14px;
+  }
+}

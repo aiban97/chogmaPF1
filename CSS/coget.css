@@ -25,7 +25,10 @@
   font-weight: 600;
   color: #880a08;
   list-style-type: none;
+}
 
+.nora-dept-lists li a {
+  color: #880a08;
 }
 
 @media(max-width: 600px) {
@@ -41,4 +44,36 @@
 .table-container {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media(max-width: 450px) {
+  .content-container {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0;
+  }
+
+  .heading-text{
+    padding: 0;
+  }
+
+  .nora-dept-lists li {
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 350px) {
+  .content-container {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0;
+  }
+
+  .heading-text{
+    padding: 0;
+  }
+
+  .nora-dept-lists li {
+    font-size: 14px;
+  }
 }
