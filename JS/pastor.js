@@ -1,8 +1,8 @@
-let pastorsHTML = '';
+let pastorsHTML = "";
 
 pastors.forEach((pastor) => {
-  pastorsHTML +=`
-      <div class="pastor-card">
+  pastorsHTML += `
+      <div class="pastor-card hidden">
         <img src="${pastor.image}" alt="" />
         <div class="pastor-desc">
           <p class="name">${pastor.name}</p>
@@ -14,4 +14,4 @@ pastors.forEach((pastor) => {
       </div>`;
 });
 
-document.querySelector('.pastors-container').innerHTML = pastorsHTML;
+document.querySelector(".pastors-container").innerHTML = pastorsHTML;
